@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(174, 207, 180);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url("employee_management.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    background-color: transparent; 
+    padding: 20px;
+}
+
+h1, h2, p, li, footer, label {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color: #79a3a3;
+}
+
+button {
+    background-color: #45659f;
+    color: rgb(145, 223, 138);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.nav-links a {
+    display: inline-block;
+    border: 2px solid #333;
+    border-radius: 12px;
+    background-color: #7ddadd;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    display: flex;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    flex-shrink: 0;
+    }
+
+input[type="text"], input[type="number"], input[type="tel"] {
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: rgb(141, 223, 223);
+    border-radius: 6px;
+    flex: 1;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.employee-table {
+    display: table !important;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.employee-table thead {
+    display: table-header-group !important;
+}
+
+.employee-table tbody {
+    display: table-row-group !important;
+    background-color: azure;
+}
+
+.employee-table tr {
+    display: table-row !important;
+}
+
+.employee-table th, .employee-table td {
+    display: table-cell !important;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
