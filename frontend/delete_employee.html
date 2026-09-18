@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Employee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delete Employee</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add_employee.html">Add Employee</a></li>
+                <li><a href="view_employees.html">View Employees</a></li>
+                <li><a href="update_employee.html">Update Employee</a></li>
+                <li><a href="delete_employee.html">Delete Employee</a></li>
+                <li><a href="search_employees.html">Search Employees</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <h2>Delete Employee</h2>
+            <form id="deleteEmployeeForm" onsubmit="event.preventDefault(); processDeletion();">
+                <label for="id">Employee ID:</label>
+                <input type="text" id="id" name="id" required><br><br>
+
+                <button type="submit">Delete Employee</button>
+            </form>
+        </main>
+    <footer>
+        <p>&copy; 2026 Employee Management System. All rights reserved.</p>
+        Created by Anirudh Dhamodaran BL.SC.U4AIE25106<br>
+                   Kevin Crispin BL.SC.U4AIE25129<br>
+                   Rahul R BL.SC.U4AIE25142<br>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
